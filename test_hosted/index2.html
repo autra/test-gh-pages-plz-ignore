@@ -24,12 +24,12 @@
     <button id="hosted">Install an hosted app</button>
     <button id="packaged">Install an packaged app</button>
     <script>
-      document.addEventListener('load', () => {
+      window.addEventListener('load', () => {
         document.getElementById('hosted').addEventListener('click', () => {
           //install hosted
           // This URL must be a full url.
           var manifestUrl =
-              'https://autra.github.io/test-gh-pages-plz-ignore/test-hosted/manifest-hosted.webapp
+              'https://autra.github.io/test-gh-pages-plz-ignore/test_hosted/manifest-hosted.webapp';
           var req = navigator.mozApps.installPackage(manifestUrl);
           req.onsuccess = function() {
             alert(this.result.origin);
@@ -39,13 +39,11 @@
           };
         });
 
-        });
-
         document.getElementById('packaged').addEventListener('click', () => {
           //install packaged 
           // This URL must be a full url.
           var manifestUrl =
-              'https://autra.github.io/test-gh-pages-plz-ignore/test-hosted/manifest.webapp
+              'https://autra.github.io/test-gh-pages-plz-ignore/test_hosted/manifest.webapp';
           var req = navigator.mozApps.installPackage(manifestUrl);
           req.onsuccess = function() {
             alert(this.result.origin);

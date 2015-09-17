@@ -1,7 +1,8 @@
 {
   "name": "test_hosted",
   "description": "A Hello World app",
-  "package_path": "https://autra.github.io/test-gh-pages-plz-ignore/test_hosted/package.zip"
+  "package_path":
+  "https://autra.github.io/test-gh-pages-plz-ignore/test_hosted/package.zip",
   "version": "1",
   "developer": {
     "name": "Your name",
