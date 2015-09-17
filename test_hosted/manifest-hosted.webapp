@@ -1,16 +1,11 @@
 {
-  "name": "test_hosted",
+  "name": "testhosted",
   "description": "A Hello World app",
   "launch_path": "/test-gh-pages-plz-ignore/test_hosted/index.html",
   "icons": {
-    "16": "/test-gh-pages-plz-ignore/test_hosted/icons/icon16x16.png",
-    "48": "/test-gh-pages-plz-ignore/test_hosted/icons/icon48x48.png",
-    "60": "/test-gh-pages-plz-ignore/test_hosted/icons/icon60x60.png",
     "128": "/test-gh-pages-plz-ignore/test_hosted/icons/icon128x128.png"
   },
   "developer": {
-    "name": "Your name",
-    "url": "http://example.com"
-  },
-  "default_locale": "en"
+    "name": "Your name"
+  }
 }
