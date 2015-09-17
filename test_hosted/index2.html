@@ -30,7 +30,7 @@
           // This URL must be a full url.
           var manifestUrl =
               'https://autra.github.io/test-gh-pages-plz-ignore/test_hosted/manifest-hosted.webapp';
-          var req = navigator.mozApps.installPackage(manifestUrl);
+          var req = navigator.mozApps.install(manifestUrl);
           req.onsuccess = function() {
             alert(this.result.origin);
           };
